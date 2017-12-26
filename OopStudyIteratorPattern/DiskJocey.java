@@ -6,8 +6,7 @@ public class DiskJocey {
 	SongIterator  Rock;
 	SongIterator  Pop;
 
-	
-	public DiskJocey(SongIterator Rock,SongIterator Pop) {
+public DiskJocey(SongIterator Rock,SongIterator Pop) {
 		this.Rock=Rock;
 		this.Pop=Pop;
 	}
@@ -16,7 +15,6 @@ public class DiskJocey {
 	{
 		Iterator RockIter=Rock.CreateIterator();
 		PlaySongs(RockIter);
-				
 	}
 
 	private void PlaySongs(Iterator SongIter) {
