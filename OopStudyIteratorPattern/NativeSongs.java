@@ -23,7 +23,6 @@ public class NativeSongs implements SongIterator {
 	
 	public Hashtable<Integer, SongInfo> GetSongs(){
 		return Songs;
-		
 	}
 
 	@Override
@@ -31,7 +30,4 @@ public class NativeSongs implements SongIterator {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-	
-
 }
