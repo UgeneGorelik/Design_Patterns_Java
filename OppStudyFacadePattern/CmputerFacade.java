@@ -8,16 +8,12 @@ public class CmputerFacade {
 	CmputerFacade(){
 		 this.Prog1= new StartProg();
 		  this.Prog2= new RunProg();
-		
-		
 	}
 	
 	
 	public void start() {
 		Prog1.run();
 		Prog2.run();
-	
-		
 	}
 	
 	
