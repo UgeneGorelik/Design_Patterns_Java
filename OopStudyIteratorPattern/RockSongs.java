@@ -11,19 +11,16 @@ public class RockSongs implements SongIterator{
 		Songs =  new ArrayList<SongInfo>();
 		AddSong("Korn");
 		AddSong("Sepultura");
-		
 	}
 	
 	
 	public void AddSong(String Name) {
 		SongInfo song=new SongInfo(Name);
 		Songs.add(song);
-		
 	}
 	
 	public ArrayList<SongInfo> GetSongs() {
 		return Songs;
-		
 	}
 
 	
